@@ -40,7 +40,7 @@ public class DoubleLinkedList {
 
     boolean isPositionGreaterThanSize = size < usedPosition;
     if(isPositionGreaterThanSize && size != -1){
-      throw new IllegalArgumentException("Size must be less then or equal size");
+      throw new IllegalArgumentException("Position must be less then or equal size");
     }
 
     if(size == -1) {
@@ -49,7 +49,7 @@ public class DoubleLinkedList {
     } else {
       // 2. Liste ist nicht
       Node current = first;
-      for (int index = 0; index < size; ++index){
+      for (int index = 0; index < usedPosition; ++index){
         current = current.getNext();
       }
 

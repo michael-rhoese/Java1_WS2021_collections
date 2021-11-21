@@ -131,7 +131,7 @@ class DoubleLinkedListTest {
     // then
     Assertions.assertThat(result)
       .isInstanceOf(IllegalArgumentException.class)
-      .hasMessage("Size must be less then or equal size");
+      .hasMessage("Position must be less then or equal size");
   }
 
   @Test
