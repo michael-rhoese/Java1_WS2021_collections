@@ -12,3 +12,5 @@ for developing such a Java based project. It contains examples for
 ## Linked lists
 The goal of the two implementations is to show how data structure like date can be realized with Java. The structure ins shown in
 ![](doc/img/linkedLists.svg)
+
+next change
